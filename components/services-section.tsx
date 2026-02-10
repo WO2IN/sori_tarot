@@ -6,7 +6,7 @@ const services = [
   {
     title: "연애 / 관계 리딩",
     description:
-      "사랑과 인간관계에 대한 깊은 통찰을 제공합니다. 현재 관계의 방향성과 미래의 가능성을 함께 살펴봅니다.",
+      "사랑과 인간관계에 대한 깊은 통찰을 제공합니다.\n현재 관계의 방향성과 미래의 가능성을 함께 살펴봅니다.",
     icon: Heart,
     image: "/images/tarot-love.jpg",
     duration: "40분",
@@ -24,7 +24,7 @@ const services = [
   {
     title: "종합 운세 리딩",
     description:
-      "삶의 전반적인 흐름을 읽어드립니다. 영적 성장과 내면의 목소리에 귀 기울이는 시간을 함께합니다.",
+      "삶의 전반적인 흐름을 읽어드립니다. 영적 성장과 \n내면의 목소리에 귀 기울이는 시간을 함께합니다.",
     icon: Compass,
     image: "/images/tarot-spiritual.jpg",
     duration: "60분",
@@ -45,8 +45,9 @@ export function ServicesSection() {
             <span className="text-balance">타로 리딩 서비스</span>
           </h2>
           <p className="mt-4 max-w-lg text-balance text-sm leading-relaxed text-muted-foreground">
-            당신의 상황에 맞는 리딩을 선택하세요. 모든 상담은 1:1 프라이빗으로
-            진행됩니다.
+            당신의 상황에 맞는 리딩을 선택하세요. <br></br>모든 상담은 1:1 프라이빗으로
+            진행됩니다.<br />
+            예약은 오후 20시부터 오후 23시까지 가능합니다.
           </p>
         </div>
 

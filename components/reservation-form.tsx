@@ -17,15 +17,10 @@ const serviceOptions = [
 ]
 
 const timeSlots = [
-  "10:00",
-  "11:00",
-  "13:00",
-  "14:00",
-  "15:00",
-  "16:00",
-  "17:00",
-  "18:00",
-  "19:00",
+  "20:00",
+  "21:00",
+  "22:00",
+  "23:00",
 ]
 
 export function ReservationForm() {
@@ -244,6 +239,8 @@ export function ReservationForm() {
                 }
                 onSelect={(date) => {
                   if (!date) return
+                  // 토요일은 선택 불가
+                  if (date.getDay() === 6) return
                   const iso = toYMD(date)
                   // 내일부터 선택 가능
                   if (iso < minDate) return
@@ -252,7 +249,12 @@ export function ReservationForm() {
                     preferred_date: iso,
                   }))
                 }}
-                disabled={(date) => toYMD(date) < minDate}
+                disabled={(date) => {
+                  // 내일 이전 + 토요일 비활성화
+                  if (toYMD(date) < minDate) return true
+                  if (date.getDay() === 6) return true
+                  return false
+                }}
                 initialFocus
               />
             </PopoverContent>

@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     name: "곽*영",
-    initial: "이",
+    initial: "곽",
     review:
       "연애 상담을 받았는데 제 상황을 너무 잘 읽어주셨어요. 따뜻하고 편안한 분위기에서 상담받을 수 있었습니다.",
     service: "연애 / 관계 리딩",
@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     name: "김*지",
-    initial: "박",
+    initial: "김",
     review:
       "종합 운세를 봤는데, 현재 제 상황과 정말 맞아떨어졌어요. 앞으로의 방향에 대해 큰 도움이 되었습니다.",
     service: "종합 운세 리딩",

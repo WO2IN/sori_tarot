@@ -315,15 +315,10 @@ const serviceOptions = [
     "종합 운세 리딩"
 ];
 const timeSlots = [
-    "10:00",
-    "11:00",
-    "13:00",
-    "14:00",
-    "15:00",
-    "16:00",
-    "17:00",
-    "18:00",
-    "19:00"
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00"
 ];
 function ReservationForm() {
     _s();
@@ -391,12 +386,12 @@ function ReservationForm() {
                         className: "h-8 w-8 text-primary"
                     }, void 0, false, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 101,
+                        lineNumber: 96,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/reservation-form.tsx",
-                    lineNumber: 100,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -404,7 +399,7 @@ function ReservationForm() {
                     children: "예약이 완료되었습니다"
                 }, void 0, false, {
                     fileName: "[project]/components/reservation-form.tsx",
-                    lineNumber: 103,
+                    lineNumber: 98,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -412,7 +407,7 @@ function ReservationForm() {
                     children: "확인 후 연락드리겠습니다. 예약 관련 문의사항이 있으시면 편하게 연락해 주세요."
                 }, void 0, false, {
                     fileName: "[project]/components/reservation-form.tsx",
-                    lineNumber: 106,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -433,13 +428,13 @@ function ReservationForm() {
                     children: "새 예약하기"
                 }, void 0, false, {
                     fileName: "[project]/components/reservation-form.tsx",
-                    lineNumber: 110,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/reservation-form.tsx",
-            lineNumber: 99,
+            lineNumber: 94,
             columnNumber: 7
         }, this);
     }
@@ -452,7 +447,7 @@ function ReservationForm() {
                 children: error
             }, void 0, false, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 135,
+                lineNumber: 130,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +461,7 @@ function ReservationForm() {
                                 className: "h-3.5 w-3.5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 143,
+                                lineNumber: 138,
                                 columnNumber: 11
                             }, this),
                             "이름 ",
@@ -475,13 +470,13 @@ function ReservationForm() {
                                 children: "*"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 144,
+                                lineNumber: 139,
                                 columnNumber: 14
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 142,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -495,13 +490,13 @@ function ReservationForm() {
                         className: "rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                     }, void 0, false, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 146,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 141,
+                lineNumber: 136,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -515,7 +510,7 @@ function ReservationForm() {
                                 className: "h-3.5 w-3.5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 161,
+                                lineNumber: 156,
                                 columnNumber: 11
                             }, this),
                             "연락처 ",
@@ -524,13 +519,13 @@ function ReservationForm() {
                                 children: "*"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 162,
+                                lineNumber: 157,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 160,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -544,13 +539,13 @@ function ReservationForm() {
                         className: "rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                     }, void 0, false, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 164,
+                        lineNumber: 159,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 159,
+                lineNumber: 154,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -564,7 +559,7 @@ function ReservationForm() {
                                 className: "h-3.5 w-3.5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 179,
+                                lineNumber: 174,
                                 columnNumber: 11
                             }, this),
                             "이메일 ",
@@ -573,13 +568,13 @@ function ReservationForm() {
                                 children: "(선택)"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 180,
+                                lineNumber: 175,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 178,
+                        lineNumber: 173,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -592,13 +587,13 @@ function ReservationForm() {
                         className: "rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                     }, void 0, false, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 182,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 177,
+                lineNumber: 172,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -612,7 +607,7 @@ function ReservationForm() {
                                 className: "h-3.5 w-3.5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 196,
+                                lineNumber: 191,
                                 columnNumber: 11
                             }, this),
                             "서비스 선택 ",
@@ -621,13 +616,13 @@ function ReservationForm() {
                                 children: "*"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 197,
+                                lineNumber: 192,
                                 columnNumber: 18
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 195,
+                        lineNumber: 190,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -643,7 +638,7 @@ function ReservationForm() {
                                 children: "서비스를 선택해 주세요"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 207,
+                                lineNumber: 202,
                                 columnNumber: 11
                             }, this),
                             serviceOptions.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -651,19 +646,19 @@ function ReservationForm() {
                                     children: option
                                 }, option, false, {
                                     fileName: "[project]/components/reservation-form.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 204,
                                     columnNumber: 13
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 199,
+                        lineNumber: 194,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 194,
+                lineNumber: 189,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -680,7 +675,7 @@ function ReservationForm() {
                                         className: "h-3.5 w-3.5 text-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 220,
+                                        lineNumber: 215,
                                         columnNumber: 13
                                     }, this),
                                     "희망 날짜 ",
@@ -689,13 +684,13 @@ function ReservationForm() {
                                         children: "*"
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 221,
+                                        lineNumber: 216,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 219,
+                                lineNumber: 214,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$popover$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popover"], {
@@ -712,18 +707,18 @@ function ReservationForm() {
                                                     className: "ml-2 h-4 w-4 shrink-0 text-primary/70"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/reservation-form.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 231,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/reservation-form.tsx",
-                                            lineNumber: 225,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 224,
+                                        lineNumber: 219,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$popover$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverContent"], {
@@ -734,6 +729,8 @@ function ReservationForm() {
                                             selected: formData.preferred_date ? new Date(formData.preferred_date) : undefined,
                                             onSelect: (date)=>{
                                                 if (!date) return;
+                                                // 토요일은 선택 불가
+                                                if (date.getDay() === 6) return;
                                                 const iso = toYMD(date);
                                                 // 내일부터 선택 가능
                                                 if (iso < minDate) return;
@@ -742,28 +739,33 @@ function ReservationForm() {
                                                         preferred_date: iso
                                                     }));
                                             },
-                                            disabled: (date)=>toYMD(date) < minDate,
+                                            disabled: (date)=>{
+                                                // 내일 이전 + 토요일 비활성화
+                                                if (toYMD(date) < minDate) return true;
+                                                if (date.getDay() === 6) return true;
+                                                return false;
+                                            },
                                             initialFocus: true
                                         }, void 0, false, {
                                             fileName: "[project]/components/reservation-form.tsx",
-                                            lineNumber: 240,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 239,
+                                        lineNumber: 234,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 223,
+                                lineNumber: 218,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 218,
+                        lineNumber: 213,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -777,7 +779,7 @@ function ReservationForm() {
                                         className: "h-3.5 w-3.5 text-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 266,
                                         columnNumber: 13
                                     }, this),
                                     "희망 시간 ",
@@ -786,13 +788,13 @@ function ReservationForm() {
                                         children: "*"
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 265,
+                                        lineNumber: 267,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 263,
+                                lineNumber: 265,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -808,7 +810,7 @@ function ReservationForm() {
                                         children: "시간을 선택해 주세요"
                                     }, void 0, false, {
                                         fileName: "[project]/components/reservation-form.tsx",
-                                        lineNumber: 275,
+                                        lineNumber: 277,
                                         columnNumber: 13
                                     }, this),
                                     timeSlots.map((slot)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -816,25 +818,25 @@ function ReservationForm() {
                                             children: slot
                                         }, slot, false, {
                                             fileName: "[project]/components/reservation-form.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 267,
+                                lineNumber: 269,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 262,
+                        lineNumber: 264,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 217,
+                lineNumber: 212,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -848,7 +850,7 @@ function ReservationForm() {
                                 className: "h-3.5 w-3.5 text-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 288,
+                                lineNumber: 290,
                                 columnNumber: 11
                             }, this),
                             "추가 메시지 ",
@@ -857,13 +859,13 @@ function ReservationForm() {
                                 children: "(선택)"
                             }, void 0, false, {
                                 fileName: "[project]/components/reservation-form.tsx",
-                                lineNumber: 289,
+                                lineNumber: 291,
                                 columnNumber: 18
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 287,
+                        lineNumber: 289,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -876,13 +878,13 @@ function ReservationForm() {
                         className: "resize-none rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
                     }, void 0, false, {
                         fileName: "[project]/components/reservation-form.tsx",
-                        lineNumber: 291,
+                        lineNumber: 293,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 286,
+                lineNumber: 288,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -895,7 +897,7 @@ function ReservationForm() {
                             className: "h-4 w-4 animate-spin"
                         }, void 0, false, {
                             fileName: "[project]/components/reservation-form.tsx",
-                            lineNumber: 310,
+                            lineNumber: 312,
                             columnNumber: 13
                         }, this),
                         "예약 처리 중..."
@@ -906,7 +908,7 @@ function ReservationForm() {
                             className: "h-4 w-4"
                         }, void 0, false, {
                             fileName: "[project]/components/reservation-form.tsx",
-                            lineNumber: 315,
+                            lineNumber: 317,
                             columnNumber: 13
                         }, this),
                         "예약 신청하기"
@@ -914,13 +916,13 @@ function ReservationForm() {
                 }, void 0, true)
             }, void 0, false, {
                 fileName: "[project]/components/reservation-form.tsx",
-                lineNumber: 303,
+                lineNumber: 305,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/reservation-form.tsx",
-        lineNumber: 133,
+        lineNumber: 128,
         columnNumber: 5
     }, this);
 }

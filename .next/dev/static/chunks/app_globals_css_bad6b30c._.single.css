@@ -680,10 +680,6 @@ body {
   margin-top: auto;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -1981,6 +1977,10 @@ body {
   color: hsl(var(--muted-foreground) / .6);
 }
 
+.text-muted-foreground\/70 {
+  color: hsl(var(--muted-foreground) / .7);
+}
+
 .text-popover-foreground {
   color: hsl(var(--popover-foreground));
 }
@@ -2025,10 +2025,6 @@ body {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
-}
-
-.text-muted-foreground\/70 {
-  color: hsl(var(--muted-foreground) / .7);
 }
 
 .underline-offset-4 {
@@ -2434,6 +2430,10 @@ body {
   z-index: 20;
 }
 
+.hover\:border-green-500\/60:hover {
+  border-color: #22c55e99;
+}
+
 .hover\:border-primary\/20:hover {
   border-color: hsl(var(--primary) / .2);
 }
@@ -2446,10 +2446,6 @@ body {
   border-color: hsl(var(--primary) / .5);
 }
 
-.hover\:border-green-500\/60:hover {
-  border-color: #22c55e99;
-}
-
 .hover\:border-primary\/60:hover {
   border-color: hsl(var(--primary) / .6);
 }
@@ -2460,10 +2456,6 @@ body {
 
 .hover\:border-yellow-500\/60:hover {
   border-color: #eab30899;
-}
-
-.hover\:border-primary\/40:hover {
-  border-color: hsl(var(--primary) / .4);
 }
 
 .hover\:bg-accent:hover {
@@ -2502,6 +2494,10 @@ body {
   background-color: hsl(var(--primary) / .2);
 }
 
+.hover\:bg-primary\/5:hover {
+  background-color: hsl(var(--primary) / .05);
+}
+
 .hover\:bg-primary\/80:hover {
   background-color: hsl(var(--primary) / .8);
 }
@@ -2518,16 +2514,17 @@ body {
   background-color: hsl(var(--secondary) / .8);
 }
 
-.hover\:bg-primary\/5:hover {
-  background-color: hsl(var(--primary) / .05);
-}
-
 .hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
 
 .hover\:text-foreground:hover {
   color: hsl(var(--foreground));
+}
+
+.hover\:text-green-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-muted-foreground:hover {
@@ -2540,11 +2537,6 @@ body {
 
 .hover\:text-primary-foreground:hover {
   color: hsl(var(--primary-foreground));
-}
-
-.hover\:text-green-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-red-400:hover {
