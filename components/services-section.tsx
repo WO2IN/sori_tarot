@@ -81,7 +81,7 @@ export function ServicesSection() {
                     {service.title}
                   </h3>
                 </div>
-                <p className="mb-5 text-sm leading-relaxed text-muted-foreground">
+                <p className="mb-5 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
                   {service.description}
                 </p>
                 <div className="flex items-center justify-between">
