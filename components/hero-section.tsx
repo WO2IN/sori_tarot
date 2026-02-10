@@ -48,7 +48,7 @@ export function HeroSection() {
             className="group flex items-center gap-2 rounded-lg bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/20"
           >
             <Sparkles className="h-4 w-4 transition-transform group-hover:rotate-12" />
-            지금 예약하기
+            카드 만나러 가기
           </Link>
           <Link
             href="#services"

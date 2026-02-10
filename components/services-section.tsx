@@ -9,7 +9,8 @@ const services = [
       "사랑과 인간관계에 대한 깊은 통찰을 제공합니다.\n현재 관계의 방향성과 미래의 가능성을 함께 살펴봅니다.",
     icon: Heart,
     image: "/images/tarot-love.jpg",
-    duration: "40분",
+    type: "One Card Reading",
+    duration: "30분",
     price: "5,000원",
   },
   {
@@ -18,7 +19,8 @@ const services = [
       "직업과 커리어에 대한 고민을 타로로 풀어드립니다. 새로운 시작이나 전환점에 서 있을 때 방향을 제시합니다.",
     icon: Briefcase,
     image: "/images/tarot-career.jpg",
-    duration: "40분",
+    type: "One Card Reading",
+    duration: "30분",
     price: "5,000원",
   },
   {
@@ -27,7 +29,8 @@ const services = [
       "삶의 전반적인 흐름을 읽어드립니다.\n영적 성장과 내면의 목소리에 귀 기울이는 시간을 함께합니다.",
     icon: Compass,
     image: "/images/tarot-spiritual.jpg",
-    duration: "60분",
+    type: "Full Reading",
+    duration: "50분",
     price: "10,000원",
   },
 ]
@@ -66,11 +69,19 @@ export function ServicesSection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
-                <div className="absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full bg-background/80 px-3 py-1 backdrop-blur-sm">
-                  <Clock className="h-3 w-3 text-primary" />
-                  <span className="text-xs text-foreground/80">
-                    {service.duration}
-                  </span>
+                <div className="absolute bottom-4 left-4 flex items-center gap-2">
+                  {service.type && (
+                    <div className="flex items-center gap-1.5 rounded-full bg-background/80 px-3 py-1 text-[10px] font-medium uppercase tracking-wide text-foreground/80 backdrop-blur-sm">
+                      <Sparkles className="h-3 w-3 text-primary" />
+                      <span>{service.type}</span>
+                    </div>
+                  )}
+                  <div className="flex items-center gap-1.5 rounded-full bg-background/80 px-3 py-1 backdrop-blur-sm">
+                    <Clock className="h-3 w-3 text-primary" />
+                    <span className="text-xs text-foreground/80">
+                      {service.duration}
+                    </span>
+                  </div>
                 </div>
               </div>
 

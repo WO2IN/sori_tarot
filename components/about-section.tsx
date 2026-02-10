@@ -38,10 +38,11 @@ export function AboutSection() {
                 <span className="text-primary">빛을 비추다</span>
               </span>
             </h2>
-            <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-              밤의 비밀 소리 타로는 단순한 점술이 아닌, 당신의 내면과 대화하는 시간입니다.
-              타로 카드는 우주의 에너지를 담고 있으며, 그 에너지를 통해 당신이
-              지금 알아야 할 메시지를 전달해 드립니다.
+            <p className="mt-6 break-keep text-sm leading-relaxed text-muted-foreground">
+              밤의 비밀 소리 타로는 단순한 점술이 아닌,
+              <br />
+              당신의 내면과 대화하는 시간입니다. 타로 카드는 우주의 에너지를 담고 있으며,
+              그 에너지를 통해 당신이 지금 알아야 할 메시지를 전달해 드립니다.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               모든 상담은 편안하고 따뜻한 분위기에서 진행되며, 판단 없이 오직

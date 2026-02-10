@@ -13,7 +13,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Moon className="h-6 w-6 text-primary" />
           <span className="font-serif text-xl font-bold tracking-wide text-primary">
-            밤의 비밀 소리 타로
+            밤의 비밀 : 소리의 타로
           </span>
         </Link>
 
