@@ -24,7 +24,7 @@ const services = [
   {
     title: "종합 운세 리딩",
     description:
-      "삶의 전반적인 흐름을 읽어드립니다. 영적 성장과 \n내면의 목소리에 귀 기울이는 시간을 함께합니다.",
+      "삶의 전반적인 흐름을 읽어드립니다.\n영적 성장과 내면의 목소리에 귀 기울이는 시간을 함께합니다.",
     icon: Compass,
     image: "/images/tarot-spiritual.jpg",
     duration: "60분",
@@ -81,7 +81,7 @@ export function ServicesSection() {
                     {service.title}
                   </h3>
                 </div>
-                <p className="mb-5 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
+                <p className="mb-5 whitespace-pre-line break-keep text-sm leading-relaxed text-muted-foreground">
                   {service.description}
                 </p>
                 <div className="flex items-center justify-between">
