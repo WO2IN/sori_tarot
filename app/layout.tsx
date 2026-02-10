@@ -1,4 +1,3 @@
-import React from "react"
 import type { Metadata, Viewport } from "next"
 import { Noto_Sans_KR, Noto_Serif_KR } from "next/font/google"
 import "./globals.css"
@@ -7,12 +6,14 @@ const notoSansKr = Noto_Sans_KR({
   subsets: ["latin"],
   variable: "--font-noto-sans-kr",
   weight: ["300", "400", "500", "700"],
+  display: "swap",
 })
 
 const notoSerifKr = Noto_Serif_KR({
   subsets: ["latin"],
   variable: "--font-noto-serif-kr",
   weight: ["400", "700"],
+  display: "swap",
 })
 
 export const metadata: Metadata = {
